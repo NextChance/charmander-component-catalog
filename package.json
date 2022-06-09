@@ -2,11 +2,12 @@
   "name": "charmander-component-catalog",
   "version": "0.0.0",
   "scripts": {
-    "test:unit": "vitest --environment jsdom",
-    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "build": "build-storybook",
+    "dev": "start-storybook -p 6006",
+    "docker": "docker-compose up --build -d",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test:unit": "vitest --environment jsdom",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
     "vue": "^3.2.36",

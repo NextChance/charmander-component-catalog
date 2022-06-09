@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    container_name: charmander-component-catalog
+    image: charmander-component-catalog
+    build:
+      context: .
+    ports:
+      - 8080:8080
