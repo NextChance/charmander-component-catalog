@@ -17,7 +17,7 @@ module.exports = {
   },
   async viteFinal(config, { configType }) {
     config.resolve.alias["~storybook"] = path.resolve(__dirname);
-    config.resolve.alias["@"] = path.resolve(__dirname, "..", "src");
+    config.resolve.alias["@"] = path.resolve(__dirname, "../src/");
 
     config.plugins = [...config.plugins, vuetify()];
 
