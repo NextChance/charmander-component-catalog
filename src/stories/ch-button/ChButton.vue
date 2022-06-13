@@ -36,7 +36,7 @@ const buttonHeight = props.isSmall ? 36 : 48;
 }
 
 .v-btn.tc-button.primary {
-  background-color: var(--color-primary-high, lightblue);
+  background-color: var(--ch-button-primary-background-color, lightblue);
   color: var(--color-content-inverse);
 
   &:hover {
