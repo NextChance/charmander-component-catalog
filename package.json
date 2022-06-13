@@ -1,6 +1,17 @@
 {
   "name": "charmander-component-catalog",
   "version": "0.0.0",
+  "files": [
+    "library"
+  ],
+  "main": "./library/charmander-component-library.umd.js",
+  "module": "./library/charmander-component-library.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/charmander-component-library.es.js",
+      "require": "./dist/charmander-component-library.umd.js"
+    }
+  },
   "scripts": {
     "build-lib": "vite build",
     "build-storybook": "build-storybook",
