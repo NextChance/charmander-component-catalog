@@ -8,8 +8,8 @@
   "module": "./library/charmander-component-library.es.js",
   "exports": {
     ".": {
-      "import": "./dist/charmander-component-library.es.js",
-      "require": "./dist/charmander-component-library.umd.js"
+      "import": "./library/charmander-component-library.es.js",
+      "require": "./library/charmander-component-library.umd.js"
     }
   },
   "scripts": {
