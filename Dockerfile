@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # build app
-RUN npm run build
+RUN npm run build-storybook
 
 EXPOSE 8080
 CMD [ "http-server", "storybook-static" ]
