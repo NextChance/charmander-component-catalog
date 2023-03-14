@@ -1,5 +1,5 @@
 const path = require("path");
-const vuetify = require("@vuetify/vite-plugin");
+const vuetify = require("vite-plugin-vuetify");
 
 module.exports = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
